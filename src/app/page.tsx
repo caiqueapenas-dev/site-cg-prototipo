@@ -177,8 +177,8 @@ const Testimonials = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {testimonialsData.map((testimonial, index) => (
               <div key={index} className="bg-[#faffed] p-8 rounded-lg border border-gray-200 custom-shadow flex flex-col">
-                <p className="text-[#386641] mb-6 flex-grow">"{testimonial.text}"</p>
-                <div className="flex items-center mt-auto">
+  <p className="text-[#386641] mb-6 flex-grow">&quot;{testimonial.text}&quot;</p> {/* <-- Correção aplicada */}
+  <div className="flex items-center mt-auto">
                   <Image src={testimonial.imageSrc} alt={testimonial.imageAlt} width={48} height={48} className="w-12 h-12 rounded-full mr-4 object-cover" />
                   <div>
                     <p className="font-bold text-[#06250c] capitalize">{testimonial.author}</p>

@@ -146,7 +146,7 @@ const ClareamentoPage = () => {
                                         <p className="text-sm text-gray-500">Paciente Verificada</p>
                                     </div>
                                 </div>
-                                <p className="text-[#386641]">"Nunca imaginei que teria um sorriso tão branco! O tratamento foi super tranquilo e a equipe é maravilhosa. Minha autoestima mudou completamente."</p>
+                                <p className="text-[#386641]">&quot;Nunca imaginei que teria um sorriso tão branco! O tratamento foi super tranquilo e a equipe é maravilhosa. Minha autoestima mudou completamente.&quot;</p>
                             </div>
                             <div className="bg-[#faffed] p-8 rounded-xl shadow-lg">
                                 <div className="flex items-center mb-4">
@@ -156,7 +156,7 @@ const ClareamentoPage = () => {
                                         <p className="text-sm text-gray-500">Paciente Verificado</p>
                                     </div>
                                 </div>
-                                <p className="text-[#386641]">"Como tomo muito café, meus dentes eram bem amarelados. O resultado do clareamento foi impressionante e rápido. Recomendo a todos!"</p>
+                                <p className="text-[#386641]">&quot;Como tomo muito café, meus dentes eram bem amarelados. O resultado do clareamento foi impressionante e rápido. Recomendo a todos!&quot;</p>
                             </div>
                             <div className="bg-[#faffed] p-8 rounded-xl shadow-lg">
                                 <div className="flex items-center mb-4">
@@ -166,7 +166,7 @@ const ClareamentoPage = () => {
                                         <p className="text-sm text-gray-500">Paciente Verificada</p>
                                     </div>
                                 </div>
-                                <p className="text-[#386641]">"Tinha medo de sentir dor, mas o procedimento foi muito confortável. A equipe é incrível e atenciosa. Amei o resultado!"</p>
+                                <p className="text-[#386641]">&quot;Tinha medo de sentir dor, mas o procedimento foi muito confortável. A equipe é incrível e atenciosa. Amei o resultado!&quot;</p>
                             </div>
                         </div>
                     </div>

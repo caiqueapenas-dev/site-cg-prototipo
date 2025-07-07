@@ -67,42 +67,45 @@ const SocialProof = () => (
 );
 
 const Specialties = () => (
-  <section id="especialidades" className="py-20 bg-white">
-    <div className="container mx-auto px-6">
-      <div className="text-center max-w-2xl mx-auto mb-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#a7c957]">Nossas Especialidades</h2>
-        <p className="mt-4 text-lg text-[#386641]">Oferecemos uma ampla variedade de especialidades para garantir um cuidado completo e integrado para você e sua família.</p>
+    <section id="especialidades" className="py-20 bg-white">
+      <div className="container mx-auto px-6">
+        <div className="text-center max-w-2xl mx-auto mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#a7c957]">Nossas Especialidades</h2>
+          <p className="mt-4 text-lg text-[#386641]">Oferecemos uma ampla variedade de especialidades para garantir um cuidado completo e integrado para você e sua família.</p>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="bg-[#faffed] p-8 rounded-lg custom-shadow smooth-transition hover:-translate-y-2">
+              <h3 className="text-2xl font-bold mb-3 text-[#a7c957]">Odontologia Geral</h3>
+              <p className="text-[#386641]">Ortodontia, Próteses, Facetas, Harmonização Orofacial, Periodontia, Endodontia e atendimento infantil.</p>
+              <Link href="/clareamento" className="text-[#386641] font-semibold hover:text-[#06250c] smooth-transition mt-4 inline-block">
+                ✨ Campanha de Clareamento Dental →
+              </Link>
+          </div>
+          <div className="bg-[#faffed] p-8 rounded-lg custom-shadow smooth-transition hover:-translate-y-2">
+              <h3 className="text-2xl font-bold mb-3 text-[#a7c957]">Cirurgias e Implantes</h3>
+              <p className="text-[#386641]">Cirurgia da ATM, extração de sisos (terceiros molares) e implantes dentários com especialistas.</p>
+          </div>
+          <div className="bg-[#faffed] p-8 rounded-lg custom-shadow smooth-transition hover:-translate-y-2">
+               <h3 className="text-2xl font-bold mb-3 text-[#a7c957]">Saúde da Mulher</h3>
+              <p className="text-[#386641]">Consultas ginecológicas, preventivo completo, ultrassonografias e fisioterapia para a saúde da mulher.</p>
+          </div>
+          <div className="bg-[#faffed] p-8 rounded-lg custom-shadow smooth-transition hover:-translate-y-2">
+              <h3 className="text-2xl font-bold mb-3 text-[#a7c957]">Clínica Médica e Pediatria</h3>
+              <p className="text-[#386641]">Atendimento com clínico geral, pediatria para as crianças e medicina do trabalho para empresas.</p>
+          </div>
+          <div className="bg-[#faffed] p-8 rounded-lg custom-shadow smooth-transition hover:-translate-y-2">
+              <h3 className="text-2xl font-bold mb-3 text-[#a7c957]">Bem-Estar e Nutrição</h3>
+              <p className="text-[#386641]">Acompanhamento com psicólogo para saúde mental e nutricionista para uma vida mais saudável.</p>
+          </div>
+          <div className="bg-[#faffed] p-8 rounded-lg custom-shadow smooth-transition hover:-translate-y-2">
+              <h3 className="text-2xl font-bold mb-3 text-[#a7c957]">Fonoaudiologia e Fisioterapia</h3>
+              <p className="text-[#386641]">Tratamentos para TEA, seletividade alimentar (Modelo Denver) e fisioterapia clínica e pediátrica.</p>
+          </div>
+        </div>
+        <p className="text-center mt-10 text-lg text-[#386641] font-semibold">... e muito mais!</p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div className="bg-[#faffed] p-8 rounded-lg custom-shadow smooth-transition hover:-translate-y-2">
-            <h3 className="text-2xl font-bold mb-3 text-[#a7c957]">Odontologia Geral</h3>
-            <p className="text-[#386641]">Ortodontia, Próteses, Facetas, Harmonização Orofacial, Periodontia, Endodontia e atendimento infantil.</p>
-        </div>
-        <div className="bg-[#faffed] p-8 rounded-lg custom-shadow smooth-transition hover:-translate-y-2">
-            <h3 className="text-2xl font-bold mb-3 text-[#a7c957]">Cirurgias e Implantes</h3>
-            <p className="text-[#386641]">Cirurgia da ATM, extração de sisos (terceiros molares) e implantes dentários com especialistas.</p>
-        </div>
-        <div className="bg-[#faffed] p-8 rounded-lg custom-shadow smooth-transition hover:-translate-y-2">
-             <h3 className="text-2xl font-bold mb-3 text-[#a7c957]">Saúde da Mulher</h3>
-            <p className="text-[#386641]">Consultas ginecológicas, preventivo completo, ultrassonografias e fisioterapia para a saúde da mulher.</p>
-        </div>
-        <div className="bg-[#faffed] p-8 rounded-lg custom-shadow smooth-transition hover:-translate-y-2">
-            <h3 className="text-2xl font-bold mb-3 text-[#a7c957]">Clínica Médica e Pediatria</h3>
-            <p className="text-[#386641]">Atendimento com clínico geral, pediatria para as crianças e medicina do trabalho para empresas.</p>
-        </div>
-        <div className="bg-[#faffed] p-8 rounded-lg custom-shadow smooth-transition hover:-translate-y-2">
-            <h3 className="text-2xl font-bold mb-3 text-[#a7c957]">Bem-Estar e Nutrição</h3>
-            <p className="text-[#386641]">Acompanhamento com psicólogo para saúde mental e nutricionista para uma vida mais saudável.</p>
-        </div>
-        <div className="bg-[#faffed] p-8 rounded-lg custom-shadow smooth-transition hover:-translate-y-2">
-            <h3 className="text-2xl font-bold mb-3 text-[#a7c957]">Fonoaudiologia e Fisioterapia</h3>
-            <p className="text-[#386641]">Tratamentos para TEA, seletividade alimentar (Modelo Denver) e fisioterapia clínica e pediátrica.</p>
-        </div>
-      </div>
-      <p className="text-center mt-10 text-lg text-[#386641] font-semibold">... e muito mais!</p>
-    </div>
-  </section>
-);
+    </section>
+  );
 
 const Founders = () => (
   <section id="fundadores" className="bg-[#faffed] py-20">
@@ -137,7 +140,7 @@ const Founders = () => (
               Irmãos e apaixonados pela saúde, Dr. Paulo e Dra. Fabiana fundaram a Clínica Gama com a missão de oferecer um atendimento humanizado, acessível e de alta qualidade para a população de Ribeira do Pombal e região. Juntos, lideram uma equipe de especialistas dedicados a transformar vidas através do cuidado.
           </p>
           <Link href="#especialidades" className="text-[#386641] font-semibold hover:text-[#06250c] smooth-transition">
-            Conheça nossa equipe de especialistas &rarr;
+            Conheça nossa equipe de especialistas →
           </Link>
         </div>
       </div>
@@ -177,7 +180,7 @@ const Testimonials = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {testimonialsData.map((testimonial, index) => (
               <div key={index} className="bg-[#faffed] p-8 rounded-lg border border-gray-200 custom-shadow flex flex-col">
-  <p className="text-[#386641] mb-6 flex-grow">&quot;{testimonial.text}&quot;</p> {/* <-- Correção aplicada */}
+  <p className="text-[#386641] mb-6 flex-grow">"{testimonial.text}"</p> {/* <-- Correção aplicada */}
   <div className="flex items-center mt-auto">
                   <Image src={testimonial.imageSrc} alt={testimonial.imageAlt} width={48} height={48} className="w-12 h-12 rounded-full mr-4 object-cover" />
                   <div>
@@ -224,7 +227,7 @@ const Footer = () => (
           <p className="text-sm text-[#a7c957]">Telefone/WhatsApp: (75) 9 9911-2695</p>
         </div>
         <div className="text-center">
-          <p>&copy; 2025 Clínica Gama. Todos os direitos reservados.</p>
+          <p>© 2025 Clínica Gama. Todos os direitos reservados.</p>
           <a href="https://www.instagram.com/clinicagamarpombal" target="_blank" rel="noopener noreferrer" className="text-[#6a994e] hover:text-[#a7c957] smooth-transition">
             Siga-nos no Instagram
           </a>
